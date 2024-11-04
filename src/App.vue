@@ -1,15 +1,26 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <CochesComponent /> -->
+  <!-- <CustomersComponent /> -->
+  <!-- <EmpleadosDetalle /> -->
+  <MenuComponent />
+  <hr />
+  <router-view />
+  <hr />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import CochesComponent from './components/CochesComponent.vue'
+// import CustomersComponent from './components/CustomersComponent.vue'
+// import EmpleadosDetalle from './components/EmpleadosDetalle.vue'
+import MenuComponent from './components/MenuComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // CochesComponent
+    // CustomersComponent
+    // EmpleadosDetalle,
+    MenuComponent
   }
 }
 </script>
